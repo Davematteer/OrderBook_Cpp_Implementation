@@ -20,4 +20,8 @@ namespace order_book{
     return m_quantity;
   }
 
+  void Order::set_quantity(std::uint64_t quantity){
+
+  }
+
 }// namespace order_book

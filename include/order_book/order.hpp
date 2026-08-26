@@ -20,6 +20,8 @@ namespace order_book{
       double price() const;
       std::uint64_t quantity() const;
 
+      void set_quantity(std::uint64_t quantity);
+
     private:
       std::uint64_t m_id;
       Side m_side;
