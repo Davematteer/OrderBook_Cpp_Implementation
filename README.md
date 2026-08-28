@@ -25,17 +25,17 @@ order-book/
 │
 ├── include/
 │   └── order_book/
-│       ├── core.hpp
-│       └── utils.hpp
+│       ├── order.hpp
+│       └── order_book.hpp
 │
 ├── src/
-│   ├── core.cpp
-│   └── utils.cpp
+│   ├── order.cpp
+│   └── order_book.cpp
 │
 ├── tests/
 │   ├── CMakeLists.txt
-│   ├── test_core.cpp
-│   └── test_utils.cpp
+│   ├── test_order.cpp
+│   └── test_order_book.cpp
 │
 ├── external/
 │   └── googletest/
